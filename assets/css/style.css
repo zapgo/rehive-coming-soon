@@ -1,0 +1,266 @@
+/*
+ * @Package Name : pure-coming-soon-freebies-106
+ *
+ * @Website : www.pixelaar.com
+ * @Author : Pixelaar LLC
+ */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    line-height: 24px;
+    color: #969595;
+    font-weight: 400;
+    background-color: #f9f9f9
+}
+
+/* --------------------------------------
+TYPOGRAPHY
+------------------------------------------*/
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 15px;
+    color: #313131;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 30px;
+    line-height: 24px;
+}
+
+h2 {
+    font-size: 24px;
+    line-height: 24px;
+}
+
+h3 {
+    font-size: 20px;
+    line-height: 24px;
+}
+
+h4 {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+h5 {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+}
+
+h6 {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+/* --------------------------------------
+LINK STYLE
+------------------------------------------*/
+a {
+    color: #31aae2;
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+a,
+a:active,
+a:focus,
+a:active {
+    text-decoration: none;
+    outline: none
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+.gray-bg {
+    background-color: #f9f9f9;
+}
+
+/*Global Classes*/
+.pt-100 {
+    padding-top: 100px;
+}
+
+.ptb-90 {
+    padding-bottom: 90px;
+    padding-top: 90px;
+}
+
+.ptb-100 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.ptb-150 {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.ptb-160 {
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+
+.ptb-170 {
+    padding-top: 170px;
+    padding-bottom: 170px;
+}
+
+@media (min-width: 768px) {
+    /*custom-padding class*/
+    .pl-30 {
+        padding-left: 30px;
+    }
+
+    .pr-30 {
+        padding-right: 30px;
+    }
+}
+
+/*Common Page Header*/
+
+.page-title-section {
+    background: #313131;
+}
+
+.page-header {
+    padding-bottom: 0;
+    margin: 100px 0;
+    border-bottom: 0;
+}
+
+.page-header h1 {
+    font-size: 70px;
+    line-height: 70px;
+    color: #fff;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.page-header .sub-title {
+    display: block;
+    font-size: 40px;
+    line-height: 40px;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media (max-width: 766px) {
+    .page-header h1 {
+        font-size: 44px;
+        line-height: 44px;
+    }
+
+    .page-header .sub-title {
+        font-size: 30px;
+        line-height: 30px;
+    }
+}
+
+/*-------------------------------------------------------------
+ *pxlr-comingsoon start
+ *-------------------------------------------------------------*/
+.pxlr-comingsoon {
+    padding: 190px 0 180px;
+}
+
+.pxlr-comingsoon .logo {
+    margin-bottom: 30px;
+    display: inline-block;
+}
+
+.pxlr-comingsoon h2 {
+    font-size: 30px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.pxlr-comingsoon .countdown-wrapper {
+    background-color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+#countdowndate li {
+    font-size: 150px;
+    line-height: 150px;
+    font-weight: 700;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #000;
+}
+
+@media (max-width: 767px) {
+    #countdownSix li {
+        font-size: 80px;
+        line-height: 80px;
+    }
+}
+
+/*subscribe-wrapper*/
+.pxlr-comingsoon .subscribe-wrapper {
+    margin: 50px 0 40px;
+}
+
+.pxlr-comingsoon .subscribe-wrapper input {
+    margin-right: 8px;
+}
+
+.pxlr-comingsoon .subscribe-wrapper .form-control {
+    height: 40px;
+}
+
+.pxlr-comingsoon .subscribe-wrapper .form-control:focus {
+    box-shadow: none;
+}
+
+@media (min-width: 992px){
+    .pxlr-comingsoon .form-inline .form-control {
+        width: 294px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .pxlr-comingsoon .form-inline .form-control {
+        width: 280px;
+    }
+}
+
+.pxlr-comingsoon .social-links {
+}
+
+.pxlr-comingsoon .social-links li {
+    margin-right: 10px;
+}
+
+.pxlr-comingsoon .social-links li:last-child {
+    margin-right: 0;
+}
+
+.pxlr-comingsoon .social-links li a {
+    display: block;
+    color: #969595;
+    font-size: 20px;
+}
+
+.pxlr-comingsoon .social-links li a:hover {
+    color: #31aae2;
+}
+
+.copyright{
+    padding-top: 15px;
+}
+
+/*pxlr-comingsoon End*/
